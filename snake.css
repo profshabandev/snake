@@ -1,0 +1,105 @@
+.board{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: grid;
+   background-color: white;
+   grid-template-columns: repeat(10, 50px);
+   grid-template-rows:repeat(10, 50px); 
+   align-items: center;
+
+}
+.boxyellow{
+    background-color: yellow;
+      border: 1px solid #999;
+      height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+   
+}
+.boxorange{
+    background-color: orangered;
+      border: 1px solid #999;
+       height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+   
+   
+}
+.boxpurple{
+    background-color: purple;
+      border: 1px solid #999;
+       height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+   
+   
+}
+.boxblue{
+    background-color: blue;
+      border: 1px solid #999;
+       height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+      
+   
+   
+}
+.boxgreen{
+    background-color: green;
+      border: 1px solid #999;
+       height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+   
+   
+}
+.boxpink{
+    background-color: darkorchid;
+    border: 1px solid #999;
+       height: 50px;
+      width: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      align-items: center;
+      text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+.snake{
+    background: none;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 350px;
+    bottom: 400px;
+}
+.ladder{
+     background: none;
+   
+    position: absolute;
+    left: 200px;
+}
